@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #778899;
+}
+
+.foto-container {
+    width: 100%;
+    text-align: center;
+}
+
+.felipe {
+    max-width: 480px;
+    max-height: 300px;
+    padding: 0 auto;
+    border: 3px solid #FFA500;
+}
+
+.botao {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+}
+
+.botoes > div {
+    cursor: pointer;
+}
